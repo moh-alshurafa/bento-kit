@@ -1,0 +1,63 @@
+# Bento Kit
+
+> A design reference for apps and websites: nine visual styles sharing 27 live components, a bento grid and a motion language. Start with AGENTS.md.
+
+## Start here
+
+- [AGENTS.md](AGENTS.md): rules for AI agents
+- [README.md](README.md): overview
+
+## Styles
+
+- [Liquid Glass](styles/glass.md): Frosted translucent cards over a colourful wallpaper
+- [Graphite](styles/graphite.md): Near-black surfaces, hairlines, mono labels and one amber glow
+- [Hardware](styles/hardware.md): Beveled keys, LCD readouts and signal orange, like a piece of audio gear
+- [Neo-Brutal](styles/brutal.md): Thick outlines, hard offset shadows and candy colours
+- [Riso](styles/riso.md): Two fluorescent inks, halftone photos and offset print
+- [Bitmap](styles/bitmap.md): 1-bit windows, dithered photos and pixel type
+- [Aero](styles/aero.md): Glossy gel buttons, sky gradients and bubbles
+- [Blueprint](styles/blueprint.md): Cyanotype photos, dimension labels and a drafting grid
+- [Diwan (ديوان)](styles/diwan.md): Arabic, right to left: porcelain and ink, brass detailing, one lime accent
+
+## Tokens
+
+- [tokens.css](tokens/tokens.css): CSS custom properties for every style
+- [tokens.json](tokens/tokens.json): the same tokens as JSON
+
+## Components
+
+- [Music player](components/player/README.md): A now-playing card: album art, track and artist, an equalizer, a scrub bar and transport controls.
+- [Memories](components/photos/README.md): A photo card that steps through a set of photos with a caption and progress dots.
+- [Weather](components/weather/README.md): Current conditions over a photo: temperature, condition and today's high and low.
+- [Clock](components/clock/README.md): An analog clock face with tick marks and a digital readout.
+- [Quick controls](components/controls/README.md): Control-centre toggles (Wi-Fi, Bluetooth, Focus, Airplane mode) and an Auto-lock switch.
+- [Brightness and volume](components/sliders/README.md): Two vertical fill sliders.
+- [Notifications](components/notifications/README.md): A live stack of notifications: new ones slide in on top; swipe or close to dismiss; Clear all empties it.
+- [Command menu](components/search/README.md): A search field with a ⌘K shortcut over a filtered list of commands with icons and key hints.
+- [Checklist](components/todo/README.md): A checklist with a count and a progress bar.
+- [Revenue chart](components/chart/README.md): A line chart with a 7D/30D/90D range switch, a total, a change badge and a crosshair tooltip.
+- [Pricing](components/price/README.md): A pricing card: Monthly/Yearly switch, rolling price digits, a savings badge, features and an Upgrade button.
+- [One-time code](components/otp/README.md): A six-digit verification code field.
+- [Break timer](components/timer/README.md): A countdown ring with play and pause.
+- [Rating](components/rating/README.md): Five stars with a word label.
+- [Team](components/team/README.md): An avatar stack with online indicators, an overflow count and an Invite button.
+- [Saved photo](components/like/README.md): A full-bleed photo with a like button and count.
+- [Week calendar](components/week-calendar/README.md): A week strip with a sliding selection pill, a today marker and the selected day's event.
+- [Ride tracker](components/ride/README.md): A stylised map with an animated route and car, an arrival estimate, and the driver with message and call buttons.
+- [Chat](components/chat/README.md): A message thread with a composer.
+- [Flip countdown](components/flip-countdown/README.md): A split-flap countdown in hours, minutes and seconds.
+- [Wallet](components/wallet/README.md): A payment card with balance, the last transaction and a Pay button.
+- [Knob](components/knob/README.md): A rotary knob with a value arc and tick marks.
+- [Activity rings](components/activity-rings/README.md): Three concentric progress rings with their values.
+- [Keyboard shortcut](components/keycaps/README.md): Physical-looking keycaps showing a shortcut (⌘ K).
+- [Palette](components/swatches/README.md): A colour palette: select a swatch to see its value; select it again to copy it.
+- [Prayer times](components/prayer-times/README.md): Today's five prayer times, computed on the device, with the next prayer highlighted and a countdown ring.
+- [Verse of the day](components/verse/README.md): A verse of classical Arabic poetry: two hemistichs in Amiri, the poet's name, and a next button.
+
+## Docs
+
+- [Layout](docs/layout.md)
+- [Motion](docs/motion.md)
+- [Accessibility](docs/accessibility.md)
+- [Right to left](docs/rtl.md)
+- [Recipes](docs/recipes.md)
